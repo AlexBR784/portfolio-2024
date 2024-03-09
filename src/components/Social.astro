@@ -1,3 +1,8 @@
+---
+import GHImg from "@/images/GitHub.svg";
+import LinkImg from "@/images/LinkedIn.svg";
+---
+
 <footer
   class="bg-primary w-full h-40 absolute bottom-0 left-0 flex items-center"
 >
@@ -16,7 +21,7 @@
       >
         <img
           class="w-12 hover:scale-110 transition hover:drop-shadow-glow cursor-pointer"
-          src="src/images/LinkedIn.svg"
+          src={LinkImg.src}
           alt="LinkedIn Logo"
         />
       </a>
@@ -28,7 +33,7 @@
       >
         <img
           class="w-12 hover:scale-110 transition hover:drop-shadow-glow cursor-pointer"
-          src="src/images/GitHub.svg"
+          src={GHImg.src}
           alt="GitHub Logo"
         />
       </a>

@@ -1,5 +1,10 @@
 ---
 import Social from "@/components/Social.astro";
+import html from "@/images/html.svg";
+import JavaScript from "@/images/JavaScript.svg";
+import TW from "@/images/Tailwind CSS.svg";
+import Astroimg from "@/images/Astro.svg";
+import Git from "@/images/Git.svg";
 ---
 
 <div class="relative p-24 h-screen">
@@ -10,23 +15,23 @@ import Social from "@/components/Social.astro";
     <div class="flex flex-col md:flex-row mt-24 w-1/2 justify-center">
       <img
         class="w-1/12 mt-3 md:mx-3 hover:scale-110 transition hover:drop-shadow-glow"
-        src="src/images/html.svg"
+        src={html.src}
       />
       <img
         class="w-1/12 mt-3 md:mx-3 hover:scale-110 transition hover:drop-shadow-glow"
-        src="src/images/JavaScript.svg"
+        src={JavaScript.src}
       />
       <img
         class="w-1/12 mt-3 md:mx-3 hover:scale-110 transition hover:drop-shadow-glow"
-        src="src/images/Tailwind CSS.svg"
+        src={TW.src}
       />
       <img
         class="w-1/12 mt-3 md:mx-3 hover:scale-110 transition hover:drop-shadow-glow"
-        src="src/images/Astro.svg"
+        src={Astroimg.src}
       />
       <img
         class="w-1/12 mt-3 md:mx-3 hover:scale-110 transition hover:drop-shadow-glow"
-        src="src/images/Git.svg"
+        src={Git.src}
       />
     </div>
   </section>
