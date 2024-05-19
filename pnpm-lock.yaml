@@ -11,6 +11,9 @@ dependencies:
   '@fontsource/pacifico':
     specifier: ^5.0.12
     version: 5.0.12
+  '@fontsource/roboto':
+    specifier: ^5.0.13
+    version: 5.0.13
   astro:
     specifier: ^4.4.13
     version: 4.4.13
@@ -538,6 +541,10 @@ packages:
 
   /@fontsource/pacifico@5.0.12:
     resolution: {integrity: sha512-iGs1ylUK8kcCqgWZ/IkCyVMWbwqls0em963qBeQLyCYDrFIeRglibZSDona+zZRW705lkW0eP1GhchyOFj35pQ==}
+    dev: false
+
+  /@fontsource/roboto@5.0.13:
+    resolution: {integrity: sha512-j61DHjsdUCKMXSdNLTOxcG701FWnF0jcqNNQi2iPCDxU8seN/sMxeh62dC++UiagCWq9ghTypX+Pcy7kX+QOeQ==}
     dev: false
 
   /@isaacs/cliui@8.0.2:

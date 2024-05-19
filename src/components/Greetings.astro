@@ -1,0 +1,27 @@
+---
+import profilePic from "@/images/profile-pic-blue.png";
+---
+
+<section class="flex items-center justify-center">
+  <div class="flex flex-row items-center">
+    <img src={profilePic.src} alt="Profile picture" class="h-60 rounded-full" />
+    <div class="">
+      <p class="text-lg ml-5">
+        🤙 Hola, soy Alejandro Bernardo <br /> Ingeniero Multimedia, apasionado por
+        la tecnología.
+      </p>
+    </div>
+  </div>
+</section>
+
+<style>
+  section {
+    height: 100vh;
+    width: 100%;
+    color: #000000;
+  }
+
+  *::selection {
+    background-color: #ccdbfd;
+  }
+</style>

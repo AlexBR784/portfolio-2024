@@ -1,0 +1,41 @@
+---
+import TimelineItem from "./TimelineItem.astro";
+---
+
+<section
+  class="relative min-h-screen flex flex-col bg-slate-50 overflow-hidden"
+>
+  <div class="w-full max-w-6xl mx-auto px-4 md:px-6 py-24">
+    <h4 class="text-center text-2xl">Background</h4>
+    <div class="flex flex-col justify-center [&>*]:py-16">
+      <div class="w-full max-w-3xl mx-auto">
+        <div class="-my-6">
+          <TimelineItem
+            label="NTTData"
+            title="Engineer - NTTData"
+            subtitle="Promoción a Engineer por la participación en proyectos de Salesforce y la obtención de +5 certificaciones durante el primer año."
+            date="Feb. 2024"
+          />
+          <TimelineItem
+            label="NTTData"
+            title="Junior Engineer - NTTData"
+            subtitle="Participación en proyectos de Salesforce, realizando tareas de desarrollo con Lightning Web Components, lenguaje Apex y vlocity."
+            date="Ene. 2023"
+          />
+          <TimelineItem
+            label="Universitat de València"
+            title="Fin estudios universitarios"
+            subtitle="Graduado en Ingeniería Multimedia por la Universitat de València."
+            date="Jun. 2022"
+          />
+          <TimelineItem
+            label="Universitat de València"
+            title="Inicio estudios universitarios"
+            subtitle="Inicio del grado en Ingeniería Multimedia."
+            date="Sept. 2018"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
