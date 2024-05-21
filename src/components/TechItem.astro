@@ -1,0 +1,12 @@
+---
+const { tech, background, color } = Astro.props;
+---
+
+<div>
+  <span
+    style={`background-color: ${background}; color: ${color};`}
+    class="text-sm font-medium me-2 px-2.5 py-0.5 rounded hover:text-primary"
+  >
+    {tech}
+  </span>
+</div>

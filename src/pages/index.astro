@@ -2,12 +2,20 @@
 import Greetings from "@/components/Greetings.astro";
 import Timeline from "@/components/Timeline.astro";
 import Layout from "@/layouts/Layout.astro";
+import Nav from "@/components/Nav.astro";
 import "@fontsource/pacifico";
 import "@fontsource/roboto";
+import ruido from "@/images/ruidos.svg";
 ---
 
 <Layout title="Alejandro Bernardo | Software Engineer">
-  <main>
+  <main class="flex flex-col items-center">
+    <img
+      class="fixed inset-0 w-full h-full object-cover pointer-events-none z-[-1]"
+      src={ruido.src}
+      alt=""
+    />
+    <Nav />
     <Greetings />
     <Timeline />
   </main>
