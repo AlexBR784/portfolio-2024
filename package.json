@@ -11,10 +11,14 @@
   },
   "dependencies": {
     "@astrojs/tailwind": "^5.1.0",
-    "@fontsource/pacifico": "^5.0.12",
+    "@fontsource/pacifico": "^5.0.13",
     "@fontsource/roboto": "^5.0.13",
     "astro": "^4.4.13",
     "tailwindcss": "^3.4.1",
     "tailwindcss-animated": "^1.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.14"
   }
 }
