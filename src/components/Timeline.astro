@@ -6,7 +6,7 @@ import { projects } from "@/lib/projects";
 ---
 
 <section
-  class="relative min-h-screen bg-slate-50 overflow-hidden grid md:grid-cols-1 lg:grid-cols-2 px-20 gap-10 text-sm lg:text-lg"
+  class="relative min-h-screen bg-slate-50 overflow-hidden grid md:grid-cols-1 lg:grid-cols-2 px-20 gap-10 text-sm scale-75"
 >
   <div class="w-full max-w-6xl mx-auto px-4 md:px-6">
     <h4 class="text-center text-3xl">Timeline</h4>
@@ -44,7 +44,7 @@ import { projects } from "@/lib/projects";
 
   <div class="flex flex-col items-center">
     <Tech />
-    <h4 class="text-center text-3xl mb-14">Proyectos</h4>
+    <h4 class="text-center text-3xl mb-14 mt-14">Proyectos</h4>
     <div class="flex flex-row">
       {projects.map((project) => <ProjectItem project={project} />)}
     </div>
