@@ -6,11 +6,11 @@ import { projects } from "@/lib/projects";
 ---
 
 <section
-  class="relative min-h-screen overflow-hidden grid grid-cols-1 xl:grid-cols-2 px-0 gap-10 text-sm scale-75"
+  class="relative min-h-screen overflow-hidden grid grid-cols-1 xl:grid-cols-2 px-0 gap-10 my-12 text-center"
 >
   <div class="w-full max-w-6xl mx-auto px-4 md:px-6">
-    <h4 class="text-center text-3xl">Timeline</h4>
-    <div class="flex flex-col justify-center [&>*]:py-16">
+    <h4 class="text-center text-3xl title-custom">Timeline</h4>
+    <div class="flex flex-col justify-center [&>*]:py-16 text-left">
       <div class="w-full max-w-3xl mx-auto">
         <div class="-my-6">
           <TimelineItem
@@ -44,9 +44,24 @@ import { projects } from "@/lib/projects";
 
   <div class="flex flex-col items-center">
     <Tech />
-    <h4 class="text-center text-3xl mb-14 mt-14">Proyectos</h4>
-    <div class="flex flex-col xl:flex-row">
-      {projects.map((project) => <ProjectItem project={project} />)}
+    <h4 class="text-center text-3xl mb-14 mt-14 title-custom">Proyectos</h4>
+    <div class="flex flex-col xl:flex-row gap-4 mt-10">
+      {projects.map((project) => <ProjectItem project={project} desc={project.desc} />)}
     </div>
   </div>
 </section>
+
+<style>
+.title-custom {
+  box-shadow: inset 0 0 0 0 #c6e2ff;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .4s ease-in-out, box-shadow .4s ease-in-out;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.title-custom:hover {
+  box-shadow: inset 100vw 0 0 0 #c6e2ff;
+}
+</style>
