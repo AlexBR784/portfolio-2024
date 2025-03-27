@@ -13,7 +13,7 @@
     "@astrojs/tailwind": "^5.1.0",
     "@fontsource/pacifico": "^5.0.13",
     "@fontsource/roboto": "^5.0.13",
-    "astro": "^4.4.13",
+    "astro": "^5.5.5",
     "sharp": "^0.33.4",
     "tailwindcss": "^3.4.1",
     "tailwindcss-animated": "^1.0.1"
