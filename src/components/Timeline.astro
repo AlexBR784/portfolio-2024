@@ -45,7 +45,7 @@ import { projects } from "@/lib/projects";
   <div class="flex flex-col items-center">
     <Tech />
     <h4 class="text-center text-3xl mb-14 mt-14 title-custom">Proyectos</h4>
-    <div class="flex flex-col xl:flex-row gap-4 mt-10">
+    <div class="flex flex-col xl:flex-row gap-4 mt-10 md:flex-row">
       {projects.map((project) => <ProjectItem project={project} desc={project.desc} />)}
     </div>
   </div>
